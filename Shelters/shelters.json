@@ -1,0 +1,74 @@
+{
+  "countries": [
+    {
+      "name": "Antigua and Barbuda",
+      "shelters": [
+        {
+          "type": "Hurricane",
+          "locations": [
+            {
+              "name": "Shelter 1",
+              "latitude": 0,
+              "longitude": 0
+            },
+            {
+              "name": "Shelter 2",
+              "latitude": 0,
+              "longitude": 0
+            }
+          ]
+        },
+        {
+          "type": "Tsunami",
+          "locations": [
+            {
+              "name": "Shelter 3",
+              "latitude": 0,
+              "longitude": 0
+            },
+            {
+              "name": "Shelter 4",
+              "latitude": 0,
+              "longitude": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Country 2",
+      "shelters": [
+        {
+          "type": "Hurricane",
+          "locations": [
+            {
+              "name": "Shelter 5",
+              "latitude": 0,
+              "longitude": 0
+            },
+            {
+              "name": "Shelter 6",
+              "latitude": 0,
+              "longitude": 0
+            }
+          ]
+        },
+        {
+          "type": "Tsunami",
+          "locations": [
+            {
+              "name": "Shelter 7",
+              "latitude": 0,
+              "longitude": 0
+            },
+            {
+              "name": "Shelter 8",
+              "latitude": 0,
+              "longitude": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
