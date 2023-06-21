@@ -1,0 +1,105 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    font-size: 120%;
+}
+
+.caribbean-daily {
+    margin-top: 1em;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    padding-top: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.caribbean-search {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 1em;
+}
+
+.caribbean-searchbar {
+    border: none;
+    outline: none;
+    padding: 0.4em 1em;
+    border-radius: 24px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-family: inherit;
+    font-size: 105%;
+    max-width: 320px;
+    text-align: center;
+    margin-right: 8px;
+}
+
+.caribbean-search button {
+    border-radius: 50%;
+    border: none;
+    height: 45px;
+    width: 45px;
+    outline: none;
+    background: #fbc979;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.caribbean-weather {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 1em;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+.description {
+    text-transform: capitalize;
+    margin-left: 8px;
+}
+
+.caribbean-searchbar:hover {
+    transform: scale(1.07);
+}
+
+:root {
+    background-color: #009688;
+}
+
+.day-1,
+.day-2,
+.day-3,
+.day-4,
+.day-5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2.3em;
+    background: rgba(0, 0, 0, 0.849);
+    border-radius: 15px;
+    color: #fff;
+    text-align: center;
+}
+
+.caribbean-country {
+    color: #fff;
+    font: 16px;
+}
