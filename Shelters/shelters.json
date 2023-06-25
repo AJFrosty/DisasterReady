@@ -7,14 +7,88 @@
           "type": "Hurricane",
           "locations": [
             {
-              "name": "Shelter 1",
-              "latitude": 0,
-              "longitude": 0
+              "name": "J.T Ambrose Primary School",
+              "latitude": 17.0632377,
+              "longitude": -61.7935655,
+              "contact": "+1 (268) 460-1970"
             },
             {
-              "name": "Shelter 2",
+              "name": "Old Road Primary School",
+              "latitude": 17.017035,
+              "longitude": -61.842964,
+              "contact": "+1 (268) 460-1970"
+            },
+            {
+              "name": "Old Road Anglican Church",
+              "latitude": 17.016142,
+              "longitude": -61.837086,
+              "contact": "+1 (268) 460-1970"
+            },
+            {
+              "name": "Cana Moravian Pre-School and Daycare",
+              "latitude": 17.051805,
+              "longitude": -61.801087,
+              "contact": "+1 (268) 782-1153"
+            },
+            {
+              "name": "Zion Church of God",
+              "latitude": 17.087369,
+              "longitude": -61.802391,
+              "contact": "+1 (268) 464-2755"
+            },
+            {
+              "name": "Holy Trinity School",
+              "latitude": 17.641007,
+              "longitude": -61.827084,
+              "contact": "+1 (268) 785-1162"
+            },
+            {
+              "name": "St.John's Pentecostal Church, House of Restoration",
+              "latitude": 17.1299166922,
+              "longitude": -61.8314090266,
+              "contact": "+1 (268) 562-7352"
+            },
+            {
+              "name": "Church of God Prophecy",
+              "latitude": 17.052626,
+              "longitude": -61.8003687,
+              "contact": "+1 (268) 562-7352"
+            },
+            {
+              "name": "Mary E. Pigott Primary School",
+              "latitude": 17.1149263,
+              "longitude": -61.8363507,
+              "contact": "+1 (268) 784-4070"
+            },
+            {
+              "name": "Ottos Comprehensive School",
+              "latitude": 17.1167,
+              "longitude": -61.85,
+              "contact": "+1 (268) 720-8733"
+            },
+            {
+              "name": "St. Andrews Anglican Church",
+              "latitude": 17.1352725929,
+              "longitude": -61.8486745974,
+              "contact": "+1 (268) 484-2122"
+            },
+            {
+              "name": "",
               "latitude": 0,
-              "longitude": 0
+              "longitude": 0,
+              "contact": "+1 (268)"
+            },
+            {
+              "name": "",
+              "latitude": 0,
+              "longitude": 0,
+              "contact": "+1 (268)"
+            },
+            {
+              "name": "",
+              "latitude": 0,
+              "longitude": 0,
+              "contact": "+1 (268)"
             }
           ]
         },
@@ -24,47 +98,14 @@
             {
               "name": "Shelter 3",
               "latitude": 0,
-              "longitude": 0
+              "longitude": 0,
+              "contact": ""
             },
             {
               "name": "Shelter 4",
               "latitude": 0,
-              "longitude": 0
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Country 2",
-      "shelters": [
-        {
-          "type": "Hurricane",
-          "locations": [
-            {
-              "name": "Shelter 5",
-              "latitude": 0,
-              "longitude": 0
-            },
-            {
-              "name": "Shelter 6",
-              "latitude": 0,
-              "longitude": 0
-            }
-          ]
-        },
-        {
-          "type": "Tsunami",
-          "locations": [
-            {
-              "name": "Shelter 7",
-              "latitude": 0,
-              "longitude": 0
-            },
-            {
-              "name": "Shelter 8",
-              "latitude": 0,
-              "longitude": 0
+              "longitude": 0,
+              "contact": ""
             }
           ]
         }
