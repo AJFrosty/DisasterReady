@@ -73,10 +73,148 @@
               "contact": "+1 (268) 484-2122"
             },
             {
-              "name": "",
-              "latitude": 0,
-              "longitude": 0,
+              "name": "Villa Baptist Church",
+              "latitude": 17.12855,
+              "longitude": -61.84554,
+              "contact": "+1 (268) 484-2122"
+            },
+            {
+              "name": " St. Francis of Asisi Roman Catholic Church",
+              "latitude": 17.1323989,
+              "longitude": -61.8463961,
+              "contact": "+1 (268) 562-9046"
+            },
+            {
+              "name": "Clare-Hall Seventh-Day Adventist Church",
+              "latitude": 17.1299564,
+              "longitude": -61.8296777,
+              "contact": "+1 (268) 562-3860"
+            },
+            {
+              "name": "Bethel Gospel Hall",
+              "latitude": 17.1188,
+              "longitude": -61.828,
+              "contact": "+1 (268) 785-9773"
+            },
+            {
+              "name": "Living Hope Christian Union Church",
+              "latitude": 17.12653,
+              "longitude": -61.82755,
+              "contact": "+1 (268) 560-7281"
+            },
+            {
+              "name": "Mount of Blessing New Testament Church",
+              "latitude": 17.108886642,
+              "longitude": -61.8344804383,
+              "contact": "+1 (268) 780-3167"
+            },
+            {
+              "name": "Cedar Grove Government Creche",
+              "latitude": 17.16225,
+              "longitude": -61.8178,
+              "contact": "+1 (268) 481-6361"
+            },
+            {
+              "name": "St.John's Church of Christ",
+              "latitude": 17.1021242,
+              "longitude": -61.8410589,
+              "contact": "+1 (268) 464-5095"
+            },
+            {
+              "name": "Tindall Seventh Day Adventist Church",
+              "latitude": 17.1081192,
+              "longitude": -61.8442924,
+              "contact": "+1 (268) 460-6034"
+            },
+            {
+              "name": "Green Bay Primary School",
+              "latitude": 17.1129665375,
+              "longitude": -61.8496818542,
+              "contact": "+1 (268) 463-8886"
+            },
+            {
+              "name": "UWI Five Islands Campus Gymnasium",
+              "latitude": 17.07,
+              "longitude": -61.52,
+              "contact": "+1 (268) 481-7542"
+            },
+            {
+              "name": "Grays Farm Seventh-Day Adventist Church",
+              "latitude": 17.1068307,
+              "longitude": -61.853595,
+              "contact": "+1 (268) 481-7557"
+            },
+            {
+              "name": "Iglesia De Dios Pentecostal I.M",
+              "latitude": 18.4747038,
+              "longitude": -67.0400828,
+              "contact": "+1 (268) 775-8643"
+            },
+            {
+              "name": "Bethany Gospel Hall",
+              "latitude": 17.1470621,
+              "longitude": -61.8111219,
+              "contact": "+1 (268) 736-2456"
+            },
+            {
+              "name": "Sir Novell Richards Academy",
+              "latitude": 17.1167,
+              "longitude": -61.85,
+              "contact": "+1 (268) 786-7422"
+            },
+            {
+              "name": "Potters Seventh-Day Adventist Church",
+              "latitude": 17.1154896,
+              "longitude": -61.8186417,
+              "contact": "+1 (268) 770-2456"
+            },
+            {
+              "name": "New Winthropes Seventh-Day Adventist Church",
+              "latitude": 17.143396377563,
+              "longitude": -61.811626434326,
+              "contact": "+1 (268) 786-7422"
+            },
+            {
+              "name": "Cedar Hall Moravian Church Community Centre",
+              "latitude": 17.0775438,
+              "longitude": -61.8589128,
+              "contact": "+1 (268) 464-0277"
+            },
+            {
+              "name": "Ottos Wesleyan Holiness Church",
+              "latitude": 17.1115402,
+              "longitude": -61.839242,
+              "contact": "+1 (268) 480-7390"
+            },
+            {
+              "name": "Bolans Seventh-Day Adventist Church",
+              "latitude": 17.0637582,
+              "longitude": -61.8795192,
               "contact": "+1 (268)"
+            },
+            {
+              "name": "Bolans Wesleyan Holiness Church",
+              "latitude": 17.0654079,
+              "longitude": -61.8773694,
+              "contact": "+1 (268) 480-5151"
+            },
+            {
+              "name": "Cobbs Cross Primary School",
+              "latitude": 	17.0243084,
+              "longitude": -61.766435,
+              "contact": "+1 (268) 460-1009"
+            },
+            {
+              "name": "Baxter Memorial Methodist Church Annex",
+              "latitude": 17.0162914,
+              "longitude": -61.7673682,
+              "contact": "+1 (268) 770-9916"
+            },
+            {
+              "name": "Parham Pentecostal Church",
+              "latitude": 17.09682,
+              "longitude": -61.77046,
+              "contact": "+1 (268) 480-7017"
             },
             {
               "name": "",
@@ -85,10 +223,28 @@
               "contact": "+1 (268)"
             },
             {
-              "name": "",
-              "latitude": 0,
-              "longitude": 0,
-              "contact": "+1 (268)"
+              "name": "Seaglans Central Seventh-Day Adventist Church",
+              "latitude": 17.083943,
+              "longitude": -61.7226183,
+              "contact": "+1 (268) 786-5400"
+            },
+            {
+              "name": "Glanvilles Secondary School",
+              "latitude": 17.0903,
+              "longitude":  -61.72413,
+              "contact": "+1 (268) 480-7276"
+            },
+            {
+              "name": "Bethesda Pentecostal Church, House of Prayer",
+              "latitude": 17.044654,
+              "longitude":  -61.751664,
+              "contact": "+1 (268) 562-4430"
+            },
+            {
+              "name": "Freetown Seventh-Day Adventist Church",
+              "latitude": 17.0470009,
+              "longitude": -61.7075205,
+              "contact": "+1 (268) 562-4430"
             }
           ]
         },
