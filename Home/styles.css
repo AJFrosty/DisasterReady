@@ -193,23 +193,79 @@ a {
   line-height: 1.5;
 }
 
-/* Section 3 (Test) */
+/* Section 3 (QUiz) */
 .three {
-  height: 100vh;
+  height: 100vh; 
   display: flex;
   align-items: center;
-  justify-content: center;
-  background-color: white;
+  flex-direction: column;
+}
+.quiz-heading {
+  color: white;
+  font-size: 32px;
+  margin-bottom: 20px;
+  padding-top:150px;
+}
+.test {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-bottom: 20px;
 }
 
-.three p {
-  color: #fff;
+.question {
+  min-width: 300px;
+  padding: 10px;
+  background-color: #f0f0f069;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.question p {
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+#quiz-container {
+  position: relative;
+}
+
+#back-btn,
+#next-btn,
+#submit-btn {
+  position:relative;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#back-btn {
+  float: left;
+  margin-top: 0;
+  background-color: #3ffff5;
+}
+
+#next-btn {
+  float: right;
+  background-color: #19dafa;
+}
+
+#submit-btn {
+  display: block;
+  margin: 0 auto;
+  background-color: #19dafa;
+}
+
+#result-container {
   text-align: center;
-  margin-top: 50px;
-  font-size: 24px;
+  margin-bottom: 20px;
+  color: #fff;
 }
 
-/* Hide the scrollbar on the container */
+/*Miscellaneous Items On the Main Site
+ Hide the scrollbar on the container */
 .container::-webkit-scrollbar {
   width: 0.5em;
   background-color: black;
@@ -242,10 +298,10 @@ a {
     color: #1a8cb7;
   }
    50% {
-    color: #1b3e5d;
+    color: #37a1fe;
   }
   75% {
-    color: #87133c;
+    color: #465fff;
   }
   100% {
     color: #19dafa;
