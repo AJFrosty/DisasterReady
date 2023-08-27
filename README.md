@@ -3,7 +3,6 @@
 Welcome to Disaster Ready Caribbean! 🌊🌪️
 
 ![Disaster Ready Banner](https://media.discordapp.net/attachments/807743928316067862/1145396091261550662/image.png?width=1440&height=488)
-*Caption: Disaster Ready Caribbean - Be Prepared, Stay Safe*
 
 ## About Us 📢
 
