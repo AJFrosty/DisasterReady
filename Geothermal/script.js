@@ -7,25 +7,25 @@ $(function() {
   }).addTo(map);
 
   var layers = {
-    temperature: L.tileLayer('https://tile.openweathermap.org/map/temp_new/{z}/{x}/{y}.png?appid=f0432aedfec8f9aa7b07f0b4472222de', {
+    temperature: L.tileLayer('https://tile.openweathermap.org/map/temp_new/{z}/{x}/{y}.png?appid=API_KEY', {
       attribution: '&copy; <a href="http://openweathermap.org">OpenWeatherMap</a>',
-      APIkey: 'f0432aedfec8f9aa7b07f0b4472222de'
+      APIkey: 'API_KEY'
     }),
-    precipitation: L.tileLayer('https://tile.openweathermap.org/map/precipitation_new/{z}/{x}/{y}.png?appid=f0432aedfec8f9aa7b07f0b4472222de', {
+    precipitation: L.tileLayer('https://tile.openweathermap.org/map/precipitation_new/{z}/{x}/{y}.png?appid=API_KEY', {
       attribution: '&copy; <a href="http://openweathermap.org">OpenWeatherMap</a>',
-      APIkey: 'f0432aedfec8f9aa7b07f0b4472222de'
+      APIkey: 'API_KEY'
     }),
-    wind: L.tileLayer('https://tile.openweathermap.org/map/wind_new/{z}/{x}/{y}.png?appid=f0432aedfec8f9aa7b07f0b4472222de', {
+    wind: L.tileLayer('https://tile.openweathermap.org/map/wind_new/{z}/{x}/{y}.png?appid=API_KEY', {
       attribution: '&copy; <a href="http://openweathermap.org">OpenWeatherMap</a>',
-      APIkey: 'f0432aedfec8f9aa7b07f0b4472222de'
+      APIkey: 'API_KEY'
     }),
-    clouds: L.tileLayer('https://tile.openweathermap.org/map/clouds_new/{z}/{x}/{y}.png?appid=f0432aedfec8f9aa7b07f0b4472222de', {
+    clouds: L.tileLayer('https://tile.openweathermap.org/map/clouds_new/{z}/{x}/{y}.png?appid=API_KEY', {
       attribution: '&copy; <a href="http://openweathermap.org">OpenWeatherMap</a>',
-      APIkey: 'f0432aedfec8f9aa7b07f0b4472222de'
+      APIkey: 'API_KEY'
     }),
-    pressure: L.tileLayer('https://tile.openweathermap.org/map/pressure_new/{z}/{x}/{y}.png?appid=f0432aedfec8f9aa7b07f0b4472222de', {
+    pressure: L.tileLayer('https://tile.openweathermap.org/map/pressure_new/{z}/{x}/{y}.png?appid=API_KEY', {
       attribution: '&copy; <a href="http://openweathermap.org">OpenWeatherMap</a>',
-      APIkey: 'f0432aedfec8f9aa7b07f0b4472222de'
+      APIkey: 'API_KEY'
     })
   };
 
