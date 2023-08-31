@@ -3,13 +3,13 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 110vh;
     margin: 0;
     font-family: 'Open Sans', sans-serif;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    font-size: 120%;
+    font-size: 115%;
 }
 
 .caribbean-daily {
@@ -60,7 +60,7 @@ body {
 .caribbean-weather {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    grid-gap: 1em;
+    grid-gap: 0.8em;
 }
 
 .flex {
@@ -92,9 +92,9 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 2.3em;
+    padding: 1.0em;
     background: rgba(0, 0, 0, 0.849);
-    border-radius: 15px;
+    border-radius: 30px;
     color: #fff;
     text-align: center;
 }
