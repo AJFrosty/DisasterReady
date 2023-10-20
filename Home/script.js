@@ -63,11 +63,11 @@ function calculateResult() {
   // Add your logic to determine the recommendation based on the score
   // Example recommendation based on score range:
   if (score >= 5) {
-    recommendationElement.textContent = 'You have excellent taste!';
+    recommendationElement.textContent = "You're Well Prepared!";
   } else if (score >= 3) {
-    recommendationElement.textContent = 'You have good taste!';
+    recommendationElement.textContent = 'Fairly Prepared but Still Need Some Work!';
   } else {
-    recommendationElement.textContent = 'You have room for improvement!';
+    recommendationElement.textContent = 'Improve Your Preparations!';
   }
 
   resultContainer.style.display = 'block';

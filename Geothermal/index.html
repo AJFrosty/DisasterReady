@@ -23,27 +23,28 @@
   </head>
   <body>
     <div id="map"></div>
-    <div class="layer-checkbox">
-      <input type="checkbox" id="temperature-layer" checked />
-      <label for="temperature-layer">Temperature</label><br />
-      <div id="temperature-legend" class="legend"></div>
-  
-      <input type="checkbox" id="precipitation-layer" checked />
-      <label for="precipitation-layer">Precipitation</label><br />
-      <div id="precipitation-legend" class="legend"></div>
-  
-      <input type="checkbox" id="wind-layer" checked />
-      <label for="wind-layer">Wind Speed</label><br />
-      <div id="wind-legend" class="legend"></div>
-  
-      <input type="checkbox" id="clouds-layer" checked />
-      <label for="clouds-layer">Clouds</label><br />
-      <div id="clouds-legend" class="legend"></div>
-  
-      <input type="checkbox" id="pressure-layer" checked />
-      <label for="pressure-layer">Sea Level Pressure</label><br />
-      <div id="pressure-legend" class="legend"></div>
+    <div id="legend" class="legend">
+      <h3>Legend</h3>
+      <div class="legend-item">
+        <div class="legend-color" style="background: rgba(110, 110, 205, 0.3);"></div>
+        <div class="legend-label">Temperature</div>
+      </div>
+      <div class="legend-item">
+        <div class="legend-color" style="background: rgba(20, 20, 255, 0.9);"></div>
+        <div class="legend-label">Precipitation</div>
+      </div>
+      <div class="legend-item">
+        <div class="legend-color" style="background: rgba(244, 244, 255, 1);"></div>
+        <div class="legend-label">Wind Speed</div>
+      </div>
+      <div class="legend-item">
+        <div class="legend-color" style="background: rgba(240, 240, 255, 1);"></div>
+        <div class="legend-label">Clouds</div>
+      </div>
+      <div class="legend-item">
+        <div class="legend-color" style="background: rgba(198, 0, 0, 1);"></div>
+        <div class="legend-label">Sea Level Pressure</div>
+      </div>
     </div>
-    <div id="legend"></div>
   </body>
 </html>

@@ -94,5 +94,5 @@ $(function() {
   }).addTo(map);
 
   // Run Updated Layers Functin
-  updateLayers();
+  // updateLayers();
 });
