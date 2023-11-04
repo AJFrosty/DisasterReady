@@ -60,14 +60,14 @@ function calculateResult() {
 
   scoreElement.textContent = `Your score: ${score}`;
 
-  // Add your logic to determine the recommendation based on the score
+  
   // Example recommendation based on score range:
-  if (score >= 5) {
-    recommendationElement.textContent = "You're Well Prepared!";
-  } else if (score >= 3) {
-    recommendationElement.textContent = 'Fairly Prepared but Still Need Some Work!';
+  if (score >= 8) {
+    recommendationElement.textContent = "You're Disaster Ready!";
+  } else if (score >= 6) {
+    recommendationElement.textContent = 'Fairly Disaster Ready but Still Need Some Work!';
   } else {
-    recommendationElement.textContent = 'Improve Your Preparations!';
+    recommendationElement.textContent = 'Yikes! You Are Not Disaster Ready';
   }
 
   resultContainer.style.display = 'block';

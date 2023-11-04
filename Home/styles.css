@@ -150,7 +150,7 @@ a {
 .dev-bio {
   padding: 10px;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   grid-gap: 1em;
   color: #ffffff;
   text-align: left;
@@ -190,6 +190,9 @@ a {
 
 .dev-bio .developer p {
   font-size: 16px;
+  margin-left: 250px;
+  margin-right: 250px;
+  text-align: center;
   line-height: 1.5;
 }
 
@@ -206,6 +209,7 @@ a {
   margin-bottom: 20px;
   padding-top:150px;
 }
+
 .test {
   display: flex;
   flex-wrap: nowrap;
@@ -213,7 +217,8 @@ a {
 }
 
 .question {
-  min-width: 300px;
+  width: 500px;
+  height: 150px;
   padding: 10px;
   background-color: #f0f0f069;
   border-radius: 5px;
