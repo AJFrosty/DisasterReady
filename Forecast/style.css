@@ -12,6 +12,30 @@ body {
     font-size: 115%;
 }
 
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.menu ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; 
+    list-style: none;
+    margin: 0;
+    padding: 20px;
+}
+  
+.menu ul li {
+    margin: 0 20px;
+    color: #fff;
+    cursor: pointer;
+}
+
+
 .caribbean-daily {
     margin-top: 1em;
     border-top: 1px solid rgba(255, 255, 255, 0.5);
@@ -25,7 +49,7 @@ body {
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 0;
+    top: 30px;
     left: 50%;
     transform: translateX(-50%);
     margin-top: 1em;
