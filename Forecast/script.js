@@ -62,7 +62,7 @@ const weatherSuggestions = {
 
 // Function To Get Weather Info
 let caribbeanWeather = {
-    "apikey": "e000516e4db572b82e8a0ff87c736d43",
+    "apikey": "API_KEY",
     fetchWeather: function(city) {
         fetch("https://api.openweathermap.org/data/2.5/forecast?q=" + city + "&units=metric&appid=" + this.apikey)
             .then((Response) => Response.json())
