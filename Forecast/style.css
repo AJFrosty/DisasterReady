@@ -127,3 +127,7 @@ body {
     color: #fff;
     font: 16px;
 }
+
+a {
+    color: blueviolet;
+}

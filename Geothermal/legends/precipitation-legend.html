@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-end;
+        }
+
+        .legend {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            margin: 10px;
+        }
+
+        .legend-stop {
+            display: flex;
+            align-items: center;
+            margin-bottom: 5px;
+        }
+
+        .color-box {
+            width: 20px;
+            height: 20px;
+            margin-right: 5px;
+        }
+
+        .legend-label {
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="legend">
+        <div class="legend-stop">
+            <div class="color-box" style="background-color: rgba(225, 200, 100, 0);"></div>
+            <div class="legend-label">0 mm</div>
+        </div>
+        <div class="legend-stop">
+            <div class="color-box" style="background-color: rgba(110, 110, 205, 0.3);"></div>
+            <div class="legend-label">1 mm</div>
+        </div>
+        <div class="legend-stop">
+            <div class="color-box" style="background-color: rgba(80, 80, 225, 0.7);"></div>
+            <div class="legend-label">10 mm</div>
+        </div>
+        <div class="legend-stop">
+            <div class="color-box" style="background-color: rgba(20, 20, 255, 0.9);"></div>
+            <div class="legend-label">140 mm</div>
+        </div>
+    </div>
+</body>
+</html>

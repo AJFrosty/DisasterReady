@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-end;
+        }
+
+        .legend {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            margin: 10px;
+        }
+
+        .legend-stop {
+            display: flex;
+            align-items: center;
+            margin-bottom: 5px;
+        }
+
+        .color-box {
+            width: 20px;
+            height: 20px;
+            margin-right: 5px;
+        }
+
+        .legend-label {
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="legend">
+        <div class="legend-stop">
+            <div class="color-box" style="background-color: rgba(255, 255, 255, 0);"></div>
+            <div class="legend-label">0 m/s</div>
+        </div>
+        <div class="legend-stop">
+            <div class="color-box" style="background-color: rgba(238,206,206, 0.4);"></div>
+            <div class="legend-label">5 m/s</div>
+        </div>
+        <div class="legend-stop">
+            <div class="color-box" style="background-color: rgba(179,100,188, 0.7);"></div>
+            <div class="legend-label">15 m/s</div>
+        </div>
+        <div class="legend-stop">
+            <div class="color-box" style="background-color: rgba(116,76,172, 0.9);"></div>
+            <div class="legend-label">50 m/s</div>
+        </div>
+        <div class="legend-stop">
+            <div class="color-box" style="background-color: rgba(70,0,175,1);"></div>
+            <div class="legend-label">100 m/s</div>
+        </div>
+        <div class="legend-stop">
+            <div class="color-box" style="background-color: rgba(13,17,38,1);"></div>
+            <div class="legend-label">200 m/s</div>
+        </div>
+    </div>
+</body>
+</html>
