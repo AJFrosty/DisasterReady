@@ -1,6 +1,6 @@
 # Disaster Ready Caribbean 🌀🌴🛠️
 
-Welcome to Disaster Ready Caribbean! 🌊🌪️
+Welcome to [Disaster Ready Caribbean! 🌊🌪️](https://ajfrosty.github.io/DisasterReady/Home/index.html)
 
 ![Disaster Ready Banner](https://media.discordapp.net/attachments/807743928316067862/1145396091261550662/image.png?width=1440&height=488)
 
@@ -21,8 +21,8 @@ Here's what you can explore on our platform:
 - 🌦️ Accurate 5-day weather forecasts
 - ☔ Real-time disaster alerts
 - 🌡️ Detailed climate data
-- 📅 Event calendar for preparedness workshops
-- 🛰️ Satellite imagery for tracking storms
+- 📅 DisasterReady Shelters
+- 🛰️ DisasterReady Preparedness Challenges
 
 ## Stay Tuned! 📻🌐
 
