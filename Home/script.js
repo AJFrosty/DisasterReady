@@ -1,19 +1,18 @@
-// Global variables
+//set first question
 let currentQuestionIndex = 1;
 
-// Function to show/hide questions
 function showQuestion(questionIndex) {
-  // Hide all questions
+  //Hides questions based on the next/back button
   const questions = document.querySelectorAll('.question');
   questions.forEach(question => {
     question.style.display = 'none';
   });
 
-  // Show the current question
+
   const currentQuestion = document.getElementById(`question${questionIndex}`);
   currentQuestion.style.display = 'block';
 
-  // Show/hide navigation buttons based on the question index
+  
   const backBtn = document.getElementById('back-btn');
   const nextBtn = document.getElementById('next-btn');
   const submitBtn = document.getElementById('submit-btn');
@@ -33,19 +32,16 @@ function showQuestion(questionIndex) {
   }
 }
 
-// Function to navigate to the next question
 function nextQuestion() {
   currentQuestionIndex++;
   showQuestion(currentQuestionIndex);
 }
 
-// Function to navigate to the previous question
 function previousQuestion() {
   currentQuestionIndex--;
   showQuestion(currentQuestionIndex);
 }
 
-// Calculate and display the quiz result
 function calculateResult() {
   const radios = document.querySelectorAll('input[type="radio"]:checked');
   let score = 0;
@@ -61,7 +57,6 @@ function calculateResult() {
   scoreElement.textContent = `Your score: ${score}`;
 
   
-  // Example recommendation based on score range:
   if (score >= 8) {
     recommendationElement.textContent = "You're Disaster Ready!";
   } else if (score >= 6) {
@@ -73,16 +68,15 @@ function calculateResult() {
   resultContainer.style.display = 'block';
 }
 
-// Event listener for the navigation buttons
+//Check for what button is clicked
 const nextBtn = document.getElementById('next-btn');
 nextBtn.addEventListener('click', nextQuestion);
 
 const backBtn = document.getElementById('back-btn');
 backBtn.addEventListener('click', previousQuestion);
 
-// Event listener for the submit button
 const submitBtn = document.getElementById('submit-btn');
 submitBtn.addEventListener('click', calculateResult);
 
-// Initial setup
+
 showQuestion(currentQuestionIndex);
