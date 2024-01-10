@@ -17,7 +17,7 @@ html {
   padding: 0;
 }
 
-.leadlet-control {
+.leaflet-control-layers, .leaflet-control{
   z-index: 1001;
 }
 
@@ -36,7 +36,7 @@ html {
 }
 
 .icon {
-  z-index: 1000;
+  z-index: 10;
 }
 
 img {
@@ -79,7 +79,7 @@ img {
   border: 1px solid #ccc;
   padding: 10px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
-  z-index: 1000;
+  z-index: 10;
 }
 
 .earth1:hover .earth-info1,
