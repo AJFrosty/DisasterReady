@@ -17,6 +17,10 @@ html {
   padding: 0;
 }
 
+.leadlet-control {
+  z-index: 1000;
+}
+
 .legend {
   position: absolute;
   width: 100px;
@@ -28,7 +32,7 @@ html {
   border: 1px solid #ccc;
   border-radius: 5px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-  z-index: 1000;
+  z-index: 1001;
 }
 
 .icon {
