@@ -54,7 +54,6 @@ img {
 .earth2 {
   position: relative;
   right: 50%;
-  padding-right: 350px;
 }
 
 .earth3 {
@@ -65,8 +64,8 @@ img {
 
 .earth4 {
   position: relative;
-  bottom: 150px;
-  left: 15%;
+  bottom: 100px;
+  left: 20%;
   margin-right: 800px;
 }
 
