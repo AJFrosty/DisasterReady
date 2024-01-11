@@ -21,6 +21,7 @@ html {
 .leaflet-control-container{
   z-index: 200;
 }
+
 .leaflet-control-layers-expanded {
   z-index: 101;
 }
@@ -38,7 +39,6 @@ html {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
   z-index: 10;
 }
-
 
 img {
   width: 40px;
@@ -66,6 +66,7 @@ img {
   position: relative;
   bottom: 100px;
   left: 20%;
+  margin-right: 800px;
 }
 
 .earth5 {
