@@ -11,13 +11,14 @@
   stroke: #000;
   stroke-width: 1.5px;
 }
+
 body,
 html {
   margin: 0;
   padding: 0;
 }
 
-.leaflet-control-layers, .leaflet-control, .leaflet-control-layers-overlays, .leaflet-control-layers-separator, .leaflet-control-layers-list{
+.leaflet-control-container, .leaflet-control-layers, .leaflet-control, .leaflet-control-layers-overlays, .leaflet-control-layers-separator, .leaflet-control-layers-list{
   z-index: 1001;
 }
 
