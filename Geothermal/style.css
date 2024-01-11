@@ -17,7 +17,7 @@ html {
   padding: 0;
 }
 
-.leaflet-control-layers, .leaflet-control{
+.leaflet-control-layers, .leaflet-control, .leaflet-control-layers-overlays{
   z-index: 1001;
 }
 
