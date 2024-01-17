@@ -135,16 +135,18 @@ a {
   text-decoration: none;
 }
 
-/* Section3 (QUiz) */
+/* Section3 (Quiz) */
+
 .three {
   height: 100vh; 
   display: flex;
   align-items: center;
   flex-direction: column;
 }
+
 .quiz-heading {
   color: white;
-  font-size: 32px;
+  font-size: 38px;
   margin-top: 250px;
 }
 
@@ -155,12 +157,13 @@ a {
 }
 
 .question {
-  width: 500px;
+  width: 600px;
   height: 300px;
-  padding: 10px;
+  padding: 15px;
   background-color: #f0f0f069;
   border-radius: 5px;
   margin-right: 10px;
+  overflow: hidden;
 }
 
 .question p {
@@ -171,6 +174,16 @@ a {
   margin-bottom: 10px;
 }
 
+ul {
+  list-style: none;
+}
+
+ul li label {
+  font-size: 16px;
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+}
 
 #quiz-container {
   position: relative;
@@ -235,7 +248,7 @@ a {
   }
 }
 
-/* Animation for play button color rotation */
+/* Animation for play button prt 2 */
 @keyframes colorRotate {
   0% {
     color: #19dafa;
