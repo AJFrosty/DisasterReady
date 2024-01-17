@@ -145,8 +145,7 @@ a {
 .quiz-heading {
   color: white;
   font-size: 32px;
-  margin-bottom: 20px;
-  padding-top:150px;
+  margin-top: 250px;
 }
 
 .test {
@@ -157,7 +156,7 @@ a {
 
 .question {
   width: 500px;
-  height: 150px;
+  height: 300px;
   padding: 10px;
   background-color: #f0f0f069;
   border-radius: 5px;
@@ -168,8 +167,11 @@ a {
   background-color: #f0f0f0;
   padding: 10px;
   border-radius: 5px;
+  font-size: 18px;
   margin-bottom: 10px;
 }
+
+
 #quiz-container {
   position: relative;
 }
