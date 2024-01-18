@@ -1,18 +1,15 @@
-/* Reset default styles */
 * {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
 }
 
-/* Set background color and opacity for the body */
 body {
   background-color: black;
   opacity: 0.9;
   overflow: hidden;
 }
 
-/* Fixed menu at the top */
 .menu {
   position: fixed;
   top: 0;
